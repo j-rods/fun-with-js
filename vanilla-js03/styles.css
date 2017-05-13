@@ -1,0 +1,34 @@
+body { background: #DDD; }
+
+/* Default */
+div {
+  width: 400px;
+  padding: 1em;
+  background: #CCC;
+  text-align: center;
+  font-family: Courier;
+  margin: 1em auto 0 auto;
+}
+
+div:before {
+  content: 'div';
+}
+
+/* Maroon */
+.maroon {
+  color: linen;
+  background: maroon;
+}
+
+.maroon:before {
+  content: 'div.maroon';
+}
+
+/* Orange */
+.orange {
+  background: orange;
+}
+
+.orange:before {
+  content: 'div.orange';
+}
