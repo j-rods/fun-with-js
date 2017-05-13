@@ -1,0 +1,9 @@
+body { background: #DDD; }
+
+div {
+  text-align: center;
+  background: #CCC;
+  width: 400px;
+  padding: 1em;
+  margin: 1em auto 0 auto;
+}
